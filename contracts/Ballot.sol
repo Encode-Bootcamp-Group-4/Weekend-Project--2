@@ -67,7 +67,7 @@ contract Ballot {
             !voters[voter].voted,
             "The voter already voted."
         );
-        require(voters[voter].weight == 0);
+        require(voters[voter].weight == 0, "The voter already has voting rights.");
         voters[voter].weight = 1;
     }
 

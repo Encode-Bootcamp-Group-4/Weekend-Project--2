@@ -2,4 +2,3 @@
 /* tslint:disable */
 /* eslint-disable */
 export { Ballot__factory } from "./Ballot__factory";
-export { HelloWorld__factory } from "./HelloWorld__factory";
